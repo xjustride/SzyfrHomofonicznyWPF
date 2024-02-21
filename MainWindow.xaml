@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SzyfrHomofonicznyWPF"
         mc:Ignorable="d"
-        Title="Szyfr Polibusza" Height="450" Width="800"
+        Title="Szyfr Homofoniczny" Height="450" Width="800"
         Background="Black">
 
     <Grid>
@@ -16,7 +16,7 @@
 
         <StackPanel Grid.Column="0" Margin="20">
             <Label Content="Wprowadź tekst:" Foreground="LimeGreen" />
-            <TextBox x:Name="inputTextBox" Height="100" Margin="0,10" Foreground="White" Background="#333" TextChanged="i--nputTextBox_TextChanged" />
+            <TextBox x:Name="inputTextBox" Height="100" Margin="0,10" Foreground="White" Background="#333" TextChanged="inputTextBox_TextChanged" />
             <Button x:Name="encryptButton" Content="Zaszyfruj" Margin="0,20,0,10" Foreground="Black" Background="LimeGreen" Click="encryptButton_Click" />
             <Button x:Name="decryptButton" Content="Odszyfruj" Margin="0,0,0,20" Foreground="Black" Background="LimeGreen" Click="decryptButton_Click" />
         </StackPanel>
